@@ -1,0 +1,185 @@
+{
+  "target": {
+    "scope": {
+      "advanced_mode": true,
+      "exclude": [
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/pension\\/agreements\\/portal",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/credit\\/applications*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/credit\\/accounts\\/*\\/signing-orders",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/credit\\/refinancing\\/applications*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+           "file": "\\/api\\/personal\\/banking\\/membership\\/coop*",
+           "host": "^.*\\.sparebank1\\.no$",
+           "protocol": "any"
+        },
+        {
+          "enabled": true,
+           "file": "\\/api\\/personal\\/banking\\/studentloan*",
+           "host": "^.*\\.sparebank1\\.no$",
+           "protocol": "any"
+        },
+        {
+          "enabled": true,
+           "file": "\\/api\\/personal\\/banking\\/credit\\/unsecured-debt*",
+           "host": "^.*\\.sparebank1\\.no$",
+           "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/pm-boliglan\\/rest\\/soknad\\/*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/sb1-nettsider-skjema\\/*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/finansiering\\/rest\\/selfservice\\/*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/finansiering\\/utsett*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/finansiering\\/rest\\/soknad\\/*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/barn\\/rest\\/*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/betaling\\/rest\\/payments\\/straksbetaling",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/betaling\\/rest\\/overforing-fra-kredittkort",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/kort\\/rest\\/cards\\/credit\\/application*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/kort\\/rest\\/cards\\/credit\\/limit*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/kort\\/rest\\/cards\\/credit\\/transactions",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/kort\\/rest\\/cards\\/credit\\/*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/kort\\/rest\\/cards\\/debit",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/kort\\/rest\\/cards\\/debit\\/*order*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/kort\\/rest\\/cards\\/*\\/fraud",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/kort\\/rest\\/cards\\/*\\/pin",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/meldinger\\/rest\\/messagethreads",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/sparing\\/rest\\/splitt\\/*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/sparing\\/rest\\/aksjetjeneste*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/utsett\\/betaling*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        }
+      ],
+      "include": [
+        {
+          "enabled": true,
+          "file": "\\/[a-z\\-]*\\/nettbank-privat\\/*",
+          "host": "^www\\.sparebank1\\.no$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/*",
+          "host": "^www\\.sparebank1\\.no$",
+          "protocol": "https"
+        }
+      ]
+    }
+  }
+}
