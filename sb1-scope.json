@@ -155,6 +155,12 @@
         },
         {
           "enabled": true,
+          "file": "\\/common\\/marketing\\/campaign\\/*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
           "file": "\\/*\\/nettbank-privat\\/sparing\\/rest\\/aksjetjeneste*",
           "host": "^.*\\.sparebank1\\.no$",
           "protocol": "any"
