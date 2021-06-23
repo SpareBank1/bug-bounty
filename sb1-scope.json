@@ -5,6 +5,12 @@
       "exclude": [
         {
           "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/accounts\\/securitydeposit\\/process*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
           "file": "\\/api\\/personal\\/banking\\/pension\\/agreements\\/portal",
           "host": "^.*\\.sparebank1\\.no$",
           "protocol": "any"
@@ -95,6 +101,12 @@
         },
         {
           "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/innstillinger\\/rest\\/smsvarsling/*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
           "file": "\\/*\\/nettbank-privat\\/kort\\/rest\\/cards\\/credit\\/application*",
           "host": "^.*\\.sparebank1\\.no$",
           "protocol": "any"
@@ -144,6 +156,24 @@
         {
           "enabled": true,
           "file": "\\/*\\/nettbank-privat\\/meldinger\\/rest\\/messagethreads",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/rest\\/opprettkonto*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/rest\\/kontoerdeling",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/*\\/nettbank-privat\\/rest\\/kontoer\\/kontobevegelser\\/oblatbestilling",
           "host": "^.*\\.sparebank1\\.no$",
           "protocol": "any"
         },
