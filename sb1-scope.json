@@ -230,7 +230,13 @@
           "file": "\\/statistikk.*",
           "host": "www\\.sparebank1\\.no$",
           "protocol": "any"
-        }
+        },
+        {
+          "enabled": true,
+          "file": "\\/sb1-dialoghub\\/rest\\/.*\\/frontend\\/operator-connection.*",
+          "host": "www\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
       ],
       "include": [
         {
