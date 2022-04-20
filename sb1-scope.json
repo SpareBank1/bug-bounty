@@ -65,6 +65,12 @@
         },
         {
           "enabled": true,
+          "file": "\\/sb1-dialoghub\\/rest\\/[a-z\\-]*\\/frontend\\/operator-connection*",
+          "host": "^.*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
           "file": "\\/*\\/nettbank-privat\\/finansiering\\/rest\\/selfservice\\/*",
           "host": "^.*\\.sparebank1\\.no$",
           "protocol": "any"
