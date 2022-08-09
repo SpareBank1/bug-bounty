@@ -6,251 +6,239 @@
         {
           "enabled": true,
           "file": "\\/api\\/personal\\/banking\\/accounts\\/securitydeposit\\/process.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/api\\/personal\\/banking\\/pension\\/agreements\\/portal",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/api\\/personal\\/banking\\/credit\\/applications.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/api\\/personal\\/banking\\/credit\\/accounts\\/.*\\/signing-orders",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/api\\/personal\\/banking\\/credit\\/refinancing\\/applications.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
            "file": "\\/api\\/personal\\/banking\\/membership\\/coop.*",
-           "host": "www\\.sparebank1\\.no$",
+           "host": ".*\\.sparebank1\\.no$",
            "protocol": "any"
         },
         {
           "enabled": true,
            "file": "\\/api\\/personal\\/banking\\/studentloan.*",
-           "host": "www\\.sparebank1\\.no$",
+           "host": ".*\\.sparebank1\\.no$",
            "protocol": "any"
         },
         {
           "enabled": true,
            "file": "\\/api\\/personal\\/banking\\/credit\\/unsecured-debt.*",
-           "host": "www\\.sparebank1\\.no$",
+           "host": ".*\\.sparebank1\\.no$",
            "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/pm-boliglan\\/rest\\/soknad\\/.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/sb1-nettsider-skjema\\/.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/finansiering\\/rest\\/selfservice\\/.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/finansiering\\/utsett.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/finansiering\\/rest\\/soknad\\/.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/barn\\/rest\\/.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/betaling\\/rest\\/payments\\/straksbetaling",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/betaling\\/rest\\/overforing-fra-kredittkort",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/innstillinger\\/rest\\/smsvarsling/.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/credit\\/application.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/credit\\/limit.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/credit\\/transactions",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/credit\\/.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/debit",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/debit\\/.*order.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/.*\\/fraud",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/.*\\/pin",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/meldinger\\/rest\\/messagethreads",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/rest\\/opprettkonto.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/rest\\/kontoerdeling",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/rest\\/kontoer\\/kontobevegelser\\/oblatbestilling",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/sparing\\/rest\\/splitt\\/.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/common\\/marketing\\/campaign\\/.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/sparing\\/rest\\/aksjetjeneste.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/utsett\\/betaling.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/openapi/nettsider/.*/sendmessage.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/openapi/nettsider/.*/feedback.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/LogServlet.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/api\\/tracking\\/.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/statistikk.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
           "file": "\\/sb1-dialoghub\\/rest\\/.*\\/frontend\\/operator-connection.*",
-          "host": "www\\.sparebank1\\.no$",
+          "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
       ],
       "include": [
-        {
-          "enabled": true,
-          "file": "\\/[a-z\\-]*\\/nettbank-privat\\/.*",
-          "host": "^www\\.sparebank1\\.no$",
-          "protocol": "https"
-        },
-        {
-          "enabled": true,
-          "file": "\\/api\\/personal\\/.*",
-          "host": "^www\\.sparebank1\\.no$",
-          "protocol": "https"
-        },
         {
           "enabled": true,
           "file": ".*",
