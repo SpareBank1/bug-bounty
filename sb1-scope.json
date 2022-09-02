@@ -59,7 +59,19 @@
         },
         {
           "enabled": true,
-          "file": "\\/sb1-nettsider-skjema\\/.*",
+          "file": "\\/sb1-nettsider-skjema\\/rest\\/.*\\/send.*",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/sb1-nettsider-skjema\\/rest\\/.*\\/bm\\/signing\\/initiate.*",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/sb1-nettsider-skjema\\/rest\\/.*\\/initiatesigning.*",
           "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
@@ -236,7 +248,7 @@
           "file": "\\/sb1-dialoghub\\/rest\\/.*\\/frontend\\/operator-connection.*",
           "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
-        },
+        }
       ],
       "include": [
         {
