@@ -17,7 +17,7 @@
         },
         {
           "enabled": true,
-          "file": "\\/api\\/personal\\/banking\\/credit\\/applications.*",
+          "file": "\\/api\\/personal\\/banking\\/credit\\/accounts\\/.*\\/outgoing-payments",
           "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
@@ -29,7 +29,73 @@
         },
         {
           "enabled": true,
-          "file": "\\/api\\/personal\\/banking\\/credit\\/refinancing\\/applications.*",
+          "file": "\\/api\\/personal\\/banking\\/credit\\/applications\\/card",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/credit\\/applications\\/card\\/supplementary",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/credit\\/applications\\/consumerloan",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/credit\\/applications\\/loan",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/credit\\/applications\\/limit",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/credit\\/applications\\/refinancing",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/credit\\/applications\\/supplementary",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/credit\\/cards\\/.*\\/pin",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/credit\\/customer\\/dialog\\/upload",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/credit\\/dispute",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/credit\\/refinancing\\/applications",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/personal\\/banking\\/credit\\/unsecured-debt.*",
           "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
@@ -42,12 +108,6 @@
         {
           "enabled": true,
            "file": "\\/api\\/personal\\/banking\\/studentloan.*",
-           "host": ".*\\.sparebank1\\.no$",
-           "protocol": "any"
-        },
-        {
-          "enabled": true,
-           "file": "\\/api\\/personal\\/banking\\/credit\\/unsecured-debt.*",
            "host": ".*\\.sparebank1\\.no$",
            "protocol": "any"
         },
@@ -119,25 +179,19 @@
         },
         {
           "enabled": true,
-          "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/credit\\/application.*",
-          "host": ".*\\.sparebank1\\.no$",
-          "protocol": "any"
-        },
-        {
-          "enabled": true,
-          "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/credit\\/limit.*",
-          "host": ".*\\.sparebank1\\.no$",
-          "protocol": "any"
-        },
-        {
-          "enabled": true,
-          "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/credit\\/transactions",
-          "host": ".*\\.sparebank1\\.no$",
-          "protocol": "any"
-        },
-        {
-          "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/credit\\/.*",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/v2\\/credit\\/.*",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/lofavor\\/kredittkort\\/rest\\/.*",
           "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
@@ -155,13 +209,13 @@
         },
         {
           "enabled": true,
-          "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/.*\\/fraud",
+          "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/debit\\/fraud",
           "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
         {
           "enabled": true,
-          "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/.*\\/pin",
+          "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/debit\\/pin",
           "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
         },
