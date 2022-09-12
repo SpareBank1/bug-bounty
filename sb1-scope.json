@@ -302,6 +302,84 @@
           "file": "\\/sb1-dialoghub\\/rest\\/.*\\/frontend\\/operator-connection.*",
           "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/.*\\/nettbank-bedrift\\/betaling\\/rest\\/tilbakemelding",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/.*\\/nettbank-bedrift\\/filer\\/rest\\/tilbakemelding",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/.*\\/nettbank-bedrift\\/transaksjoner\\/rest\\/tilbakemelding",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/corporate\\/banking\\/bestilling\\/produkt\\/myproducts\\/tilbakemelding",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/corporate\\/banking\\/bestilling\\/produkt\\/erp\\/feedback",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/corporate\\/banking\\/bestilling\\/produkt\\/erps\\/.*\\/order",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/corporate\\/banking\\/bestilling\\/produkt\\/erps\\/card\\/order",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/corporate\\/banking\\/bestilling\\/produkt\\/erps\\/ocr\\/order",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/corporate\\/banking\\/financing\\/application.*",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/api\\/corporate\\/banking\\/financing\\/overview\\/selfservice.*",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/process\\/corporate\\/customer\\/recurring-aml.*",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/process\\/corporate\\/customer\\/new-customer.*",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
+          "file": "\\/process\\/corporate\\/customer\\/establish-company.*",
+          "host": ".*\\.sparebank1\\.no$",
+          "protocol": "any"
         }
       ],
       "include": [
