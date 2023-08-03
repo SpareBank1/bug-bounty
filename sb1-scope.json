@@ -179,24 +179,6 @@
         },
         {
           "enabled": true,
-          "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/credit\\/.*",
-          "host": ".*\\.sparebank1\\.no$",
-          "protocol": "any"
-        },
-        {
-          "enabled": true,
-          "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/v2\\/credit\\/.*",
-          "host": ".*\\.sparebank1\\.no$",
-          "protocol": "any"
-        },
-        {
-          "enabled": true,
-          "file": "\\/lofavor\\/kredittkort\\/rest\\/.*",
-          "host": ".*\\.sparebank1\\.no$",
-          "protocol": "any"
-        },
-        {
-          "enabled": true,
           "file": "\\/.*\\/nettbank-privat\\/kort\\/rest\\/cards\\/debit",
           "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
