@@ -5,6 +5,12 @@
       "exclude": [
         {
           "enabled": true,
+          "file": ".*",
+          "host": "^merkevare\\.sparebank1\\.no$",
+          "protocol": "any"
+        },
+        {
+          "enabled": true,
           "file": "\\/api\\/personal\\/banking\\/accounts\\/securitydeposit\\/process.*",
           "host": ".*\\.sparebank1\\.no$",
           "protocol": "any"
